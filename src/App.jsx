@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import StudentForm from "./components/StudentForm";
-import StudentTable from "./components/StudentTable";
+import StudentTable from "./components/studentTable";
 import { studentsData } from "./data";
 import * as XLSX from "xlsx";
 import { saveAs } from "file-saver";
